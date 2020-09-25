@@ -1,0 +1,500 @@
+  155  nano simplefor.sh
+  156  ls
+  157  nano simplefor.sh
+  158  ./simplefor.sh 
+  159  nano simplefor.sh
+  160  ./simplefor.sh 
+  161  while.sh
+  162  nano while.sh
+  163  ./while.sh
+  164  bash while.sh
+  165  nano foobar.sh
+  166  ./foobar.sh 
+  167  ./foobar.sh 
+  168  nano foobar.sh
+  169  ./foobar.sh 
+  170  nano foobar.sh
+  171  ./foobar.sh 
+  172  nano foobar.sh
+  173  ./foobar.sh 
+  174  ./foobar.sh 
+  175  history > codinclub
+  176  cd temp
+  177  ls
+  178  nano leapyear.sh 
+  179  cd ..
+  180  cd terminalCommands/linux-content/
+  181  ls
+  182  cd linux-content/
+  183  ls
+  184  cat access.log | awk '{print $11}' | sort -nr | uniq -c | head -4
+  185  cat access.log
+  186  cat access.log | awk '{print $3}' | sort -nr | uniq -c | head -4
+  187  cat access.log | awk '{print $4}' | sort -nr | uniq -c | head -4
+  188  cat access.log | awk '{print $9}' | sort -nr | uniq -c | head -4
+  189  cat access.log | awk '{print $1}' | sort -nr | uniq -c | head -10
+  190  history > codinclub
+  191  pwd
+  192  cd temp
+  193  nano prime.sh
+  194  ./prime.sh
+  195  ./prime.sh
+  196  ./prime.sh
+  197  nano prime.sh
+  198  ./prime.sh
+  199  nano prime.sh
+  200  cd temp
+  201  nano cmd.sh
+  202  pwd
+  203  cd terminalCommands//linux-content/linux-content/
+  204  nano lsmcd.sh
+  205  nano cmd.sh
+  206  cd ../../..
+  207  cd temp
+  208  nano cmd.sh
+  209  ./cmd.sh
+  210  ./cmd.sh
+  211  nano cmd.sh
+  212  ./cmd.sh
+  213  ./cmd.sh
+  214  ./cmd.sh
+  215  nano cmd.sh
+  216  ./cmd.sh
+  217  nano cmd.sh
+  218  ./cmd.sh
+  219  nano cmd.sh
+  220  ./cmd.sh
+  221  nano cmd.sh
+  222  ./cmd.sh
+  223  nano cmd.sh
+  224  ./cmd.sh
+  225  echo ls
+  226  echo $ls
+  227  nano cmd.sh
+  228  ./cmd.sh
+  229  [ ls -eq 0 ]; echo $?
+  230  nano cmd.sh
+  231  ./cmd.sh
+  232  nano cmd.sh
+  233  ./cmd.sh
+  234  nano original.sh
+  235  nano updated.sh
+  236  mkdir -p original/updated
+  237  ls
+  238  rm updated
+  239  mkdir updated
+  240  ls
+  241  cat original
+  242  cp original.sh original
+  243  cp updated.sh updated
+  244  git diff original updated
+  245  mkdir original_backup
+  246  cp original original_backup/
+  247  cp -r original original_backup
+  248  nano original.sh
+  249  git diff updated original_backup
+  250  nano function.sh
+  251  ./function.sh 
+  252  nano function.sh
+  253  ./function.sh 
+  254  nano function.sh
+  255  nano function.sh
+  256  ./function.sh 
+  257  nano function.sh
+  258  ./function.sh 
+  259  nano function.sh
+  260  ./function.sh 
+  261  nano function.sh
+  262  nano functionparameter.sh
+  263  nano cmdlineargs.sh
+  264  ./cmdlineargs.sh 
+  265  ./cmdlineargs.sh 20 10
+  266  nano cmdlinename.sh
+  267  ./cmdlinename.sh 
+  268  ./cmdlinename.sh X=10 Y=20
+  269  ./cmdlinename.sh x=10 y=20
+  270  nano cmdlinename.sh
+  271  nano functionparameter.sh
+  272  ./functionparameter.sh
+  273  nano functionparameter.sh
+  274  ./functionparameter.sh
+  275  nano funtionparameter1.sh
+  276  ./functionparameter1.sh
+  277  ./functionparameter1.sh 10 20
+  278  ./funtionparameter1.sh
+  279  nano funtionparameter1.sh
+  280  ./funtionparameter1.sh 10 20
+  281  nano funtionparameter1.sh
+  282  ./funtionparameter1.sh 10 20
+  283  nano function_return.sh
+  284  ./function_return.sh
+  285  nano function_return2.sh
+  286  ./function_return2.sh
+  287  nano function_return2.sh
+  288  ./function_return2.sh
+  289  nano function_return2.sh
+  290  ./function_return2.sh
+  291  nano function_return2.sh
+  292  ./function_return2.sh
+  293  bash ./function_return2.sh
+  294  ./function_return2.sh
+  295  nano function_return2.sh
+  296  ./function_return2.sh
+  297  bash ./function_return2.sh
+  298  history > codinclub
+  299  cd temp
+  300  ./randommima.sh 
+  301  ./randommima.sh 
+  302  nano cmdlineargs.sh 
+  303  ls
+  304  nano functionparameter.sh 
+  305  nano functionparameter1.sh
+  306  nano funtionparameter1.sh 
+  307  nano random.sh
+  308  nano function_return2.sh
+  309  ./function_return2.sh 
+  310  nano cmdlinename.sh 
+  311  nano cmdlineargs.sh 
+  312  ./cmdlineargs.sh 
+  313  nano cmdlineargs.sh 
+  314  nano cmdlineargs.sh 
+  315  nano arithmatic.sh
+  316  ls
+  317  nano arithmetic.sh
+  318  ./day.sh
+  319  ./day.sh 20 March
+  320  ./day.sh 26 March
+  321  ./day.sh 26 3
+  322  ./day.sh 3 26
+  323  ./day.sh
+  324  ./day.sh
+  325  ./day.sh
+  326  ./day.sh
+  327  ./day.sh
+  328  ./day.sh
+  329  ./day.sh
+  330  ls
+  331  nano unitConversion1.sh 
+  332  nano unit_conversion.sh 
+  333  cd temp
+  334  nano month.sh
+  335  ./month.sh 
+  336  nano month.sh
+  337  nano month.sh
+  338  ./month.sh 
+  339  bash ./month.sh
+  340  nano month.sh
+  341  echo $((RANDOM%10))
+  342  echo $((RANDOM%10))
+  343  echo $((RANDOM%10))
+  344  echo $((RANDOM%10))
+  345  echo $((RANDOM%10))
+  346  echo $((RANDOM%10))
+  347  echo $((RANDOM%7+1))
+  348  echo $((RANDOM%7+1))
+  349  echo $((RANDOM%7+1))
+  350  echo $((RANDOM%7+1))
+  351  echo $((RANDOM%7+1))
+  352  echo $((RANDOM%7+1))
+  353  echo $((RANDOM%7+1))
+  354  ls
+  355  nano randommima.sh 
+  356  ./randommima.sh 
+  357  nano randommima.sh 
+  358  ./randommima.sh 
+  359  nano randommima.sh 
+  360  ./randommima.sh 
+  361  nano randommima.sh 
+  362  ./randommima.sh 
+  363  nano randommima.sh 
+  364  ./randommima.sh 
+  365  nano randommima.sh 
+  366  ./randommima.sh 
+  367  nano randommima.sh 
+  368  ./randommima.sh 
+  369  ./randommima.sh 
+  370  nano randommima.sh 
+  371  ./randommima.sh 
+  372  nano randommima.sh 
+  373  ls
+  374  nano day.sh
+  375  ./day.sh
+  376  nano day.sh
+  377  ./day.sh
+  378  nano day.sh
+  379  ./day.sh
+  380  nano day.sh
+  381  ./day.sh
+  382  nano day.sh
+  383  ./day.sh
+  384  nano day.sh
+  385  ./day.sh
+  386  nano day.sh
+  387  ./day.sh
+  388  ./day.sh
+  389  ./day.sh
+  390  nano day.sh
+  391  ./day.sh
+  392  ./day.sh 20 March
+  393  ./day.sh 30 March
+  394  ./day.sh 2 March
+  395  nano day.sh
+  396  ./day.sh 26 June
+  397  nano day.sh
+  398  ./day.sh
+  399  nano day.sh
+  400  nano day.sh
+  401  ./day.sh
+  402  nano day.sh
+  403  ./day.sh
+  404  nano day.sh
+  405  ./day.sh
+  406  nano day.sh
+  407  ./day.sh
+  408  nano day.sh
+  409  ./day.sh
+  410  nano day.sh
+  411  ./day.sh
+  412  nano day.sh
+  413  ./day.sh
+  414  nano day.sh
+  415  ./day.sh
+  416  nano day.sh
+  417  ./day.sh
+  418  ./day.sh 25 June
+  419  nano day.sh
+  420  nano day.sh
+  421  ./day.sh 25 June
+  422  nano day.sh
+  423  ./day.sh 25 June
+  424  nano day.sh
+  425  ./day.sh 25 June
+  426  nano day.sh
+  427  ./day.sh 25 June
+  428  nano day.sh
+  429  ./day.sh 25 June
+  430  nano day.sh
+  431  ./day.sh 25 June
+  432  nano day.sh
+  433  ./day.sh 25 June
+  434  nano day.sh
+  435  ./day.sh 25 June
+  436  ./day.sh 25 June
+  437  nano day.sh
+  438  ./day.sh 25 June
+  439  nano day.sh
+  440  ./day.sh 25 June
+  441  ./day.sh 5 March
+  442  nano day.sh
+  443  ./unit_conversion.sh 
+  444  ./unit_conversion.sh 
+  445  ./unit_conversion.sh 
+  446  ./unit_conversion.sh 
+  447  expr 13+5
+  448  expr 13 + 5
+  449  expr 12 * 5
+  450  expr 12 \* 5
+  451  ls
+  452  nano unit_conversion.sh 
+  453  ./unit_conversion.sh 
+  454  nano arraysimple.sh
+  455  ./arraysimple.sh 
+  456  nano arraysimple.sh
+  457  ./arraysimple.sh 
+  458  nano arraysimple.sh
+  459  nano arraysimple.sh
+  460  ./arraysimple.sh 
+  461  nano arraysimple.sh
+  462  ./arraysimple.sh 
+  463  nano arraysimple2.sh
+  464  ./arraysimple2.sh
+  465  nano arraysimple2.sh
+  466  ./arraysimple2.sh
+  467  nano arraysimple2.sh
+  468  ./arraysimple2.sh
+  469  nano arraysimple2.sh
+  470  nano arraysimplemid3.sh
+  471  ./arraysimplemid3.sh
+  472  nano arraysimple4.sh
+  473  ./arraysimple4.sh
+  474  nano arraysimple4.sh
+  475  ./arraysimple4.sh
+  476  arrVAr1=("John" "Watson" "Micheal" "Lisa")
+  477  echo ${arrVar1[@]}
+  478  echo ${arrVar1[@]}
+  479  echo ${arrVar1[@]}
+  480  echo ${arrVar1[@]:1}
+  481  echo ${arrVar1[@]}
+  482  arrVar1=("John" "Watson" "Micheal" "Lisa")
+  483  echo ${arrVar1[@]}
+  484  echo ${arrVar1[@]:1}
+  485  echo ${arrVar1[@]:1:2}
+  486  echo ${arrVar1[@]:1:3}
+  487  echo ${arrVar1[@]:0:2}
+  488  echo ${arrVar1[@]:0:1}
+  489  echo ${arrVar1[@]:1:4}
+  490  echo ${arrVar1[1:4]}
+  491  echo ${arrVar1[0]}
+  492  history > codinclub
+  493  nano arraysimple5.sh
+  494  ./arraysimple5.sh
+  495  bash ./arraysimple5.sh
+  496  nano arraysimple5.sh
+  497  bash ./arraysimple5.sh
+  498  nano bubblesort.sh
+  499  ./bubblesort.sh 
+  500  history > codinclub
+  501  pwd
+  502  cd temp
+  503  ls
+  504  nano power2for.sh
+  505  ./power2for.sh
+  506  nano power2for.sh
+  507  ./power2for.sh
+  508  nano power2for.sh
+  509  ./power2for.sh
+  510  nano power2for.sh
+  511  ./power2for.sh
+  512  nano power2for.sh
+  513  ./power2for.sh
+  514  nano power2for.sh
+  515  ./power2for.sh
+  516  nano power2for.sh
+  517  ./power2for.sh
+  518  nano power2for.sh
+  519  ./power2for.sh
+  520  nano power2for.sh
+  521  ./power2for.sh
+  522  nano power2for.sh
+  523  n=3
+  524  nano power2for.sh
+  525  ./power2for.sh
+  526  nano power2for.sh
+  527  ./power2for.sh
+  528  nano power2for.sh
+  529  ./power2for.sh
+  530  nano power2for.sh
+  531  ./power2for.sh
+  532  nano power2for.sh
+  533  ./power2for.sh
+  534  nano power2for.sh
+  535  ./power2for.sh
+  536  nano power2for.sh
+  537  nano prime.sh
+  538  ./prime.sh
+  539  ./prime.sh
+  540  ./prime.sh
+  541  bash ./prime.sh
+  542  ./prime.sh
+  543  nano prime.sh
+  544  ./prime.sh
+  545  nano prime.sh
+  546  nano power2for.sh
+  547  ./power2for.sh
+  548  ./power2for.sh
+  549  nano power2for.sh
+  550  ./power2for.sh
+  551  nano power2for.sh
+  552  ./power2for.sh
+  553  nano power2for.sh
+  554  ./power2for.sh
+  555  nano power2for.sh
+  556  ./power2for.sh
+  557  nano power2for.sh
+  558  ./power2for.sh
+  559  ./power2for.sh
+  560  nano power2for.sh
+  561  ./power2for.sh
+  562  nano prime.sh
+  563  ./prime.sh
+  564  nano prime.sh
+  565  ./prime.sh
+  566  nano prime.sh
+  567  ./prime.sh
+  568  nano prime.sh
+  569  ./prime.sh
+  570  nano prime.sh
+  571  ./prime.sh
+  572  nano prime.sh
+  573  ./prime.sh
+  574  nano prime.sh
+  575  ./prime.sh
+  576  ./prime.sh
+  577  nano prime.sh
+  578  ./prime.sh
+  579  nano prime.sh
+  580  ./prime.sh
+  581  nano factorial.sh
+  582* 
+  583  nano factorial.sh
+  584  ./factorial.sh
+  585  nano factorial.sh
+  586  ./factorial.sh
+  587  nano factorial.sh
+  588  ./factorial.sh
+  589  ./factorial.sh
+  590  nano prime.sh
+  591  ./prime.sh
+  592  nano prime.sh
+  593  nano power2while.sh
+  594  ./power2while.sh
+  595  nano power2while.sh
+  596  ./power2while.sh
+  597  ./power2while.sh
+  598  ./power2while.sh
+  599  nano dice11times.sh
+  600  ./dice11times.sh
+  601  nano dice11times.sh
+  602  nano palindromefunction.sh
+  603  ./palindromefunction.sh
+  604  nano palindromefunction.sh
+  605  ./palindromefunction.sh
+  606  nano palindromefunction.sh
+  607  ./palindromefunction.sh
+  608  nano palindromefunction.sh
+  609  ./palindromefunction.sh
+  610  nano palindromefunction.sh
+  611  ./palindromefunction.sh
+  612  nano palindromefunction.sh
+  613  bash ./palindromefunction.sh
+  614  nano palindromefunction.sh
+  615  bash ./palindromefunction.sh
+  616  nano palindromefunction.sh
+  617  bash ./palindromefunction.sh
+  618  nano palindromefunction.sh
+  619  bash ./palindromefunction.sh
+  620  nano prime.sh 
+  621  ./prime.sh 
+  622  nano prime.sh 
+  623  nano palindromefunction.sh
+  624  nano prime.sh 
+  625  ./prime.sh 
+  626  nano prime.sh 
+  627  nano prime.sh 
+  628  ./prime.sh 
+  629  nano prime.sh 
+  630  ./prime.sh 
+  631  nano prime.sh 
+  632  ./prime.sh 
+  633  nano palindromefunction.sh 
+  634  ./palindromefunction.sh 
+  635  nano palindromefunction.sh 
+  636  ./palindromefunction.sh 
+  637  bash ./palindromefunction.sh 
+  638  nano palindromefunction.sh 
+  639  bash ./palindromefunction.sh 
+  640  nano palindromefunction.sh 
+  641  bash ./palindromefunction.sh 
+  642  nano float.sh
+  643  ./float.sh
+  644  nano float.sh
+  645  ./float.sh
+  646  nano float.sh
+  647  ./float.sh
+  648  nano float.sh
+  649  ./float.sh
+  650  nano float.sh
+  651  ./float.sh
+  652  nano float.sh
+  653  ./float.sh
+  654  history > codinclub

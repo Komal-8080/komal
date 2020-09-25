@@ -1,0 +1,44 @@
+
+#!/bin/bash
+
+echo " enter the first number"
+read a
+echo " enter the second number"
+read b
+echo " enter the third number"
+read c
+val1=$(((a+b)*c))
+echo "value of a+b*c is $val1"
+val2=$(((a%b)+c))
+echo "value of a%b+c is $val2"
+val3=$(((c+a)/b))
+echo "value of c+a/b is $val3"
+val4=$(((a*b)+c))
+echo "value of a*b+c is $val4"
+if [[ ($val1 -lt $val2 && $val1 -lt $val3 && $val1 -lt $val4) ]];
+then
+echo "min value is $val1"
+elif [[ ($val2 -lt $val1 && $val2 -lt $val3 && $val2 -lt $val4) ]];
+then
+echo "min value is $val2"
+elif [[ ($val3 -lt $val1 && $val3 -lt $val2 && $val3 -lt $val4) ]];
+then
+echo "min value is $val3"
+elif [[ ($val4 -lt $val1 && $val4 -lt $val2 && $val4 -lt $val3) ]];
+then
+echo "min value is $val4"
+fi
+if [[ ($val1 -gt $val2 || $val1 -gt $val3 || $val1 -gt $val4) ]];
+then
+echo "max value is $val1"
+elif [[ ($val2 -gt $val1 || $val2 -gt $val3 || $val2 -gt $val4) ]];
+then
+echo "max value is $val2"
+elif [[ ($val3 -gt $val1 || $val3 -gt $val2 || $val3 -gt $val4) ]];
+then
+echo "max value is $val3"
+elif [[ ($val4 -gt $val1 || $val4 -gt $val2 || $val4 -gt $val3) ]];
+then
+echo "max value is $val4"
+fi
+
